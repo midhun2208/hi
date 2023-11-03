@@ -1,38 +1,41 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards{
+  background-color: bisque;
+  
+}
+.head{
+  font-family: 'Times New Roman', Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card2{
+  border-radius: 10px;
+  text-align: start;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  font-size: 60px;
+}
+.card-2{
+  font-size: x-large;
+
+}
+.inputs{
+  text-align: start;
+
+}
+#filled-basic{
+  width: 400px;
+}
+@media only screen and (max-width: 600px){
+  .cards{
+    height: 100vh;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .inputs{
+    text-align: center;
+  
   }
-  to {
-    transform: rotate(360deg);
+  #filled-basic{
+    width: 300px
   }
 }
